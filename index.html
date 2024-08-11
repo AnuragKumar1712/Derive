@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Derive - Learn to Drive</title>
+    <title>derive - Learn to Drive</title>
+    <!-- Fevicon -->
+     <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
     <!-- For Icons Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,18 +17,20 @@
 
     <header>
         <nav class="navbar">
-            <div class="logo">
-                <span>De</span>rive
-            </div>
+
+            <div class="logo"></div>
+
             <div class="nav-content" id="_nav-content">
                 <a href="#home">Home</a>
                 <a href="#about">About Us</a>
                 <a href="#features">Features</a>
                 <a href="#contact">Contact Us</a>
             </div>
+
             <button class="nav-button">
                 <a href="#cta">Install App</a>
             </button>
+
             <div class="hamburger" id="_hamburger">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -37,7 +39,7 @@
 
     <main id="home">
         <section class="hero-section">
-            <h1>Welcome to Derive</h1>
+            <h1>Welcome to <span>de</span>rive</h1>
             <p class="hero-subheading">
                 Transforming the way people learn to drive.
             </p>
@@ -50,9 +52,6 @@
         <div class="about-overlay"></div>
         <div class="about-content">
             <h2>About Us</h2>
-            <!-- <div class="about-image">
-                <img src="images/aboutSection.png" alt="About Us">
-            </div> -->
             <div class="about-text">
                 <p>Welcome to Derive, where learning to drive is made simple, accessible, and efficient. We are a
                     passionate team dedicated to transforming the way people learn to drive by leveraging technology
@@ -152,7 +151,7 @@
 
                     </ul>
                 </div>
-                <div class="contactForm">
+                <form class="contactForm" action="" method="post">
                     <h2>Send a Message</h2>
                     <div class="formBox">
                         <div class="inputBox w50">
@@ -160,26 +159,26 @@
                             <span>First Name</span>
                         </div>
                         <div class="inputBox w50">
-                            <input type="text" required>
+                            <input type="text" name="" required>
                             <span>Last Name</span>
                         </div>
                         <div class="inputBox w50">
-                            <input type="email" required>
+                            <input type="email" name="" required>
                             <span>Email Address</span>
                         </div>
                         <div class="inputBox w50">
-                            <input type="number" required>
+                            <input type="number" name="" required>
                             <span>Mobile Number</span>
                         </div>
                         <div class="inputBox w100">
-                            <textarea required></textarea>
+                            <textarea name="" required></textarea>
                             <span>Write your message here...</span>
                         </div>
                         <div class="inputBox w100">
                             <input type="submit" value="Send">
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </section>
     </section>
