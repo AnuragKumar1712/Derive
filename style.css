@@ -908,7 +908,7 @@ section#contactus::before{
 #slide2 { background: url("images/CTA2.png")}
 #slide3 { background: url("images/CTA3.png")}
 #slide4 { background: url("images/CTA4.png")}
-#slide5 { background-color: #c55109;}
+#slide5 { background: url("images/CTA5.png")}
 
 .cta-content{
     width: 100%;
@@ -957,6 +957,21 @@ section#contactus::before{
 }
 
 /* Media Queries for Responsiveness */
+@media (min-width:1380px) {
+    #slider label {
+        width: 330px;
+        height: 570px;
+    }
+
+    .cta-content{
+        font-size: 1.7rem;
+    }
+
+    .ctabtn a{
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width:1024px) {
     #slider label {
         width: 230px;
